@@ -15,9 +15,11 @@
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc",
-    "ci": "pnpm run lint && pnpm run build"
+    "ci": "pnpm run lint && pnpm run build",
+    "release": "pnpm run lint && pnpm run build && changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.27.3",
     "tsup": "^8.0.2",
     "typescript": "^5.0.0"
   }
