@@ -1,5 +1,11 @@
 # rent-centric
 
+## 0.0.6
+
+### Patch Changes
+
+- 4f9041f: use pnpm v7
+
 ## 0.0.5
 
 ### Patch Changes
