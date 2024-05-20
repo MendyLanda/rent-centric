@@ -1,5 +1,11 @@
 # rent-centric
 
+## 0.0.4
+
+### Patch Changes
+
+- fc6378e: docs
+
 ## 0.0.3
 
 ### Patch Changes
