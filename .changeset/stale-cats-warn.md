@@ -1,5 +1,0 @@
----
-"rent-centric": patch
----
-
-docs
