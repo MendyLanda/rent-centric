@@ -1,15 +1,32 @@
-# rent-centric-client
+# Unofficial Rent Centric API Client
 
-To install dependencies:
-
-```bash
-bun install
-```
-
-To run:
+## Installation
 
 ```bash
-bun run index.ts
+npm install rent-centric
 ```
 
-This project was created using `bun init` in bun v1.0.23. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+## Usage
+
+To create an instance of the RentCentricApiClient, you need to provide the following parameters:
+
+- email: The email address of the user
+- password: The password of the user
+- activationCode: A 6 letter activation code that is provided by Rent Centric (you can get it by contacting Rent Centric support)
+
+```javascript
+const client = await RentCentricApiClient.createInstance({
+    email: "joe@example.com",
+    password: "password",
+    activationCode: "123456",
+  });
+```
+
+Then you can use the client to interact with the Rent Centric API. For example, to search for rentals:
+
+```javascript
+const rentals = await client.rental.search({
+    firstName: "Mendy",
+    lastName: "Landa",
+  });
+```
