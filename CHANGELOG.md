@@ -1,5 +1,11 @@
 # rent-centric
 
+## 0.0.5
+
+### Patch Changes
+
+- 4add060: fix
+
 ## 0.0.4
 
 ### Patch Changes
