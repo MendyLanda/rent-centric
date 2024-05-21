@@ -1,5 +1,11 @@
 # rent-centric
 
+## 0.0.7
+
+### Patch Changes
+
+- ade4cb5: fixed published file structure
+
 ## 0.0.6
 
 ### Patch Changes
