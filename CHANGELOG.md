@@ -1,5 +1,11 @@
 # rent-centric
 
+## 0.0.8
+
+### Patch Changes
+
+- e43dcd1: added docs
+
 ## 0.0.7
 
 ### Patch Changes
