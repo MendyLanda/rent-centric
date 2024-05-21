@@ -15,6 +15,8 @@ To create an instance of the RentCentricApiClient, you need to provide the follo
 - activationCode: A 6 letter activation code that is provided by Rent Centric (you can get it by contacting Rent Centric support)
 
 ```javascript
+import { RentCentricApiClient } from "rent-centric";
+
 const client = await RentCentricApiClient.createInstance({
     email: "joe@example.com",
     password: "password",
