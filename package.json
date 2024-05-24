@@ -1,7 +1,7 @@
 {
   "name": "rent-centric",
-  "version": "0.0.8",
-  "description": "RentCentric API SDK",
+  "version": "0.0.7",
+  "description": "Unofficial RentCentric API SDK",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -41,5 +41,13 @@
     "README.md",
     "CHANGELOG.md",
     "package.json"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MendyLanda/rent-centric.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MendyLanda/rent-centric/issues"
+  },
+  "homepage": "https://github.com/MendyLanda/rent-centric#readme"
 }
