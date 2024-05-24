@@ -4,6 +4,12 @@
 
 ### Patch Changes
 
+- 42347f5: add repo link to npm
+
+## 0.0.8
+
+### Patch Changes
+
 - e43dcd1: added docs
 
 ## 0.0.7
